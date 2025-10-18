@@ -8,7 +8,7 @@ import Home from "./components/Home/Home"
 import About from "./components/About/About"
 import Contact from "./components/Contact/Contact.jsx"
 
-/*
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -30,7 +30,7 @@ const router = createBrowserRouter([
       }
     ]
   }
-])*/About
+])
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router} />
